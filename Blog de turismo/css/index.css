@@ -1,0 +1,24 @@
+.logo{
+  width: 30rem;
+  height: 13rem;
+}
+
+.contenedor-botones{
+  margin-top: 3rem;
+}
+
+.mayuscula{
+  text-transform: capitalize;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.redessociales{
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+
+.imagenes{
+  margin-bottom: 1rem;
+}
