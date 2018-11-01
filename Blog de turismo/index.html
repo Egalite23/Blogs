@@ -11,18 +11,18 @@
 	<link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	<title>Blog de Turismo</title>
 </head>
-<body>
-	<div class="row cuerpo">
+<body class="fondo">
+	<div class="row center-align">
 		<div class="row"><!--encabezado-->
-			<div class="s4 col">
+			<div class="l4 m4 s12 col responsive-img">
 				<img src="img/logo-blog.png" class="logo">
 			</div>
-			<div class="s8 col">
+			<div class="l8 m8 s12 col">
 				<div class="row contenedor-botones center-align">
-					<a class="waves-effect waves-light btn"><i class="material-icons right">home</i>Inicio</a>				
-					<a class="waves-effect waves-light btn"><i class="material-icons right">place</i>Estuve en..</a>		
-					<a class="waves-effect waves-light btn"><i class="material-icons right">star</i>Mejores Viajes</a>		
-					<a class="waves-effect waves-light btn"><i class="material-icons right">chat_bubble_outline</i>Recomendaciones</a>
+					<a class="waves-effect waves-light btn"><i class="material-icons right">home</i><span class="hide-on-small-only">Inicio</span></a>				
+					<a class="waves-effect waves-light btn"><i class="material-icons right">place</i><span class="hide-on-small-only">Estuve en..</span></a>		
+					<a class="waves-effect waves-light btn"><i class="material-icons right">star</i><span class="hide-on-small-only">Mejores Viajes</span></a>		
+					<a class="waves-effect waves-light btn"><i class="material-icons right">chat_bubble_outline</i><span class="hide-on-small-only">Recomendaciones</span></a>
 				</div>
 				<hr>
 				<div class="row">
@@ -31,7 +31,7 @@
 			</div>
 		</div>
 		<div class="row"><!--Cuerpo de pagina-->
-			<div class="s1 col  "><!--redes sociales-->
+			<div class="l1 m1 col hide-on-small-only "><!--redes sociales-->
 				<ul>
 					<li class="redessociales"><a href="#"><img src="img/fb.png"></a></li>
 					<li class="redessociales"><a href="#"><img src="img/ig.png"></a></li>
@@ -41,44 +41,44 @@
 					<li class="redessociales"><a href="#"><img src="img/vine.png"></a></li>
 				</ul>
 			</div>
-			<div class="s11 col row "><!--imagenes de turismo-->
-				<div class="s4 col row">
-					<div class="s12 col">
+			<div class="l11 m11 col row "><!--imagenes de turismo-->
+				<div class="m4 col row">
+					<div class="m12 col">
 						<img class="materialboxed responsive-img imagenes z-depth-3" src="img/iceland.jpg">
 					</div>
-					<div class="s12 col">
+					<div class="m12 col">
 						<img class="materialboxed responsive-img imagenes z-depth-3" src="img/iceland2.jpg">
 					</div>
-					<div class="s12 col">
+					<div class="m12 col">
 						<img class="materialboxed responsive-img imagenes z-depth-3" src="img/nyc.jpg">
 					</div>
 				</div>
-				<div class="s3 col row">
-					<div class="s12 col">
+				<div class="m3 col row">
+					<div class="m12 col">
 						<img class="materialboxed responsive-img imagenes z-depth-3" src="img/playa.jpg">
 						<img class="materialboxed responsive-img imagenes z-depth-3" src="img/china.jpg">
 					</div>
 				</div>
-				<div class="s4 col row">
+				<div class="m4 col row">
 					<div class="s12 col">
 						<img class="materialboxed responsive-img imagenes z-depth-3" src="img/borabora.jpg">
 					</div>
-					<div class="s12 col">
+					<div class="m12 col">
 						<img class="materialboxed responsive-img imagenes z-depth-3" src="img/newzealand.jpg">
 					</div>
-					<div class="s12 col">
+					<div class="m12 col">
 						<img class="materialboxed responsive-img imagenes z-depth-3" src="img/tokio.jpg">
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row entrada-blog"><!--1 entrada blog-->
-			<div class="s8 col card row"><!--Historia del Blog-->
-				<div class="s4 col espacio-blog">
+			<div class="m8 col card row teal"><!--Historia del Blog-->
+				<div class="m4 col espacio-blog">
 					<img class="materialboxed responsive-img" src="img/bogota.jpg">
 				</div>
-				<div class="s8 col">
-					<h3>Titulo # 1</h3>
+				<div class="m8 col">
+					<h3 class="center-align">Titulo # 1</h3>
 					<span class="chip">28 de Octubre del 2018<i class="material-icons">date_range</i></span>
 					<span class="chip">Bogotá - Colombia<i class="material-icons">location_on</i></span>
 				</div>
@@ -100,29 +100,29 @@
 				</p>
 				<hr>
 				<div class="row"><!--Comentarios-->
-					<div class="s12 col">
+					<div class="m12 col">
 						<h5>Deja algun comentario</h5>
 						<div class="row">
-	   						<form class="col s12">
+	   						<form class="col m12">
 	    						<div class="row">
-	        						<div class="input-field col s6">
+	        						<div class="input-field col m6">
 	          							<i class="material-icons prefix">account_circle</i>
 	        							<input id="icon_prefix" type="text" class="validate" required="">
 	        							<label for="icon_prefix">Nombre</label>
 	        						</div>
-	        						<div class="input-field col s6">
+	        						<div class="input-field col m6">
 	          							<i class="material-icons prefix">mail</i>
 	          							<input id="email" type="email" class="validate" required="">
 	          							<label for="email">Correo Electronico</label>
 	        						</div>
-	        						<div class="input-field col s12">
+	        						<div class="input-field col m12">
 	        							<i class="material-icons prefix">mode_edit</i>
 	        							<textarea id="icon_prefix2" class="materialize-textarea" required=""></textarea>
 	        							<label for="icon_prefix2">Comentario</label>
 	        						</div>
 	      						</div>
 	      						<div class="right-align">
-		      						<button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+		      						<button class="btn waves-effect waves-light blue" type="submit" name="action">Enviar
 			    					<i class="material-icons right">send</i>
 									</button>
 								</div>
@@ -131,12 +131,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="s3 col card offset-s1">
-				<div>
-					<img class="responsive-img z-depth-2" src="img/foto.jpg">
+			<div class="m3 s12 col card offset-m1 teal teal darken-2">
+				<div class="center-align">
+					<img class="responsive-img z-depth-2 circle" src="img/foto.jpg">
 				</div>
 				<hr>
-				<p>
+				<p class="flow-text">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -146,12 +146,12 @@
 				</p>
 			</div>
 			<div class="row"><!--2 entrada del blog-->
-				<div class="s12 col card row"><!--Historia del Blog-->
-				<div class="s4 col espacio-blog">
+				<div class="m12 col card row teal"><!--Historia del Blog-->
+				<div class="m4 col espacio-blog">
 					<img class="materialboxed responsive-img" src="img/bogota.jpg">
 				</div>
-				<div class="s8 col">
-					<h3>Titulo # 1</h3>
+				<div class="m8 col">
+					<h3 class="center-align">Titulo # 2</h3>
 					<span class="chip">28 de Octubre del 2018<i class="material-icons">date_range</i></span>
 					<span class="chip">Bogotá - Colombia<i class="material-icons">location_on</i></span>
 				</div>
@@ -173,29 +173,29 @@
 				</p>
 				<hr>
 				<div class="row"><!--Comentarios-->
-					<div class="s12 col">
+					<div class="m12 col">
 						<h5>Deja algun comentario</h5>
 						<div class="row">
-	   						<form class="col s12">
+	   						<form class="col m12">
 	    						<div class="row">
-	        						<div class="input-field col s6">
+	        						<div class="input-field col m6">
 	          							<i class="material-icons prefix">account_circle</i>
 	        							<input id="icon_prefix" type="text" class="validate" required="">
 	        							<label for="icon_prefix">Nombre</label>
 	        						</div>
-	        						<div class="input-field col s6">
+	        						<div class="input-field col m6">
 	          							<i class="material-icons prefix">mail</i>
 	          							<input id="email" type="email" class="validate" required="">
 	          							<label for="email">Correo Electronico</label>
 	        						</div>
-	        						<div class="input-field col s12">
+	        						<div class="input-field col m12">
 	        							<i class="material-icons prefix">mode_edit</i>
 	        							<textarea id="icon_prefix2" class="materialize-textarea" required=""></textarea>
 	        							<label for="icon_prefix2">Comentario</label>
 	        						</div>
 	      						</div>
 	      						<div class="right-align">
-		      						<button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+		      						<button class="btn waves-effect waves-light blue" type="submit" name="action">Enviar
 			    					<i class="material-icons right">send</i>
 									</button>
 								</div>
