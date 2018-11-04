@@ -11,3 +11,25 @@
 .redes-sociales {
   margin-top: 78px;
 }
+
+.menu{
+	background-color: #B4EEB4;
+}
+
+.container-fluid {
+  margin-top: 200px;
+}
+
+.glyphicon {
+    font-size: 75px;
+}
+
+.fondo {
+	background-color: rgba(8, 45, 94, 0.95);
+	margin: 5px;
+	color: white;
+}
+
+.seccion{
+	background-color: white;
+}
