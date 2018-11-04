@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="css/home.css" media="screen" charset="utf-8">
 </head>
-<body>
+<body class="fondo">
+	<div class="row callout primary columns">
 	<div class="row"><!--Encabezado-->
-		<div class="medium-5 large-5 columns"><!--Lado izquierdo de la pantalla-->
+		<div class="medium-5 large-5 small-12 columns vertical-line"><!--Lado izquierdo de la pantalla-->
 			<div class="row">
 				<h1>NOMBRE DEL BLOG</h1>
 				<h5 class="text-right">Slogan del Blog que se piensa utilizar</h5>				
 			</div>
 		</div>
-		<div class="medium-7 large-7 columns"><!--lado derecho de la pantall-->	
+		<div class="medium-7 large-7 hide-for-small-only columns"><!--lado derecho de la pantall-->	
 		</div>
 	</div>
-	<div class="row "><!--cuerpo del blog-->
-		<div class="medium-5 large-5 columns callout"><!--Lado izquierdo de la pantalla-->
+	<hr>
+	<div class="row"><!--cuerpo del blog-->
+		<div class="medium-5 large-5 hide-for-small-only columns callout secondary"><!--Lado izquierdo de la pantalla-->
 			<div class="row column"><!--Buscador-->
 				<form>
 					<div class="top-bar-right">
@@ -33,67 +35,69 @@
 		            </div>
 	        	</form>
 	        </div>
-          	<div class="row"><!--Menu-->
+          	<div class="row columns"><!--Menu-->
 	          	<div>
 	          		<ul class="vertical menu">
-	          			<li><a href="#">Inicio</a></li>
-	          			<li><a href="#">Mi Plato Perfect</a></li>
-	          			<li><a href="#">Mis Recetas</a></li>
+	          			<li class="callout warning medium-12 text-center"><a href="#">Inicio</a></li>
+	          			<li class="callout warning medium-12 text-center"><a href="#">Mi Plato Perfect</a></li>
+	          			<li class="callout warning medium-12 text-center"><a href="#">Mis Recetas</a></li>
 	          		</ul>	          		
 	          	</div>
 			</div>
-			<div class="row callout"><!--Favoritos-->
+			<div class="row callout warning"><!--Favoritos-->
 				<h5>Favoritos</h5>
-				<div class="row large-uncollapse"><!--primera linea fotos favortios-->
-					<div class="secondary text-center">
+				<div class="row"><!--primera linea fotos favortios-->
+					
 						<div class="medium-4 columns">
-							<img src="img/favorito1.jpg" alt="Favorito1" class="thumbnail"/>
+							<img src="img/fav1.jpg" alt="Favorito1" class="thumbnail"/>
 						</div>
-					</div>
-					<div class="secondary text-center">
+					
+					
 						<div class="medium-4 columns">
-							<img src="img/favorito2.jpg" alt="Favorito2" class="thumbnail"/>
+							<img src="img/fav2.jpeg" alt="Favorito2" class="thumbnail"/>
 						</div>
-					</div>
-					<div class="secondary text-center">
+					
+					
 						<div class="medium-4 columns">
-							<img src="img/favorito3.jpg" alt="Favorito3" class="thumbnail"/>
+							<img src="img/fav3.png" alt="Favorito3" class="thumbnail"/>
 						</div>
-					</div>
+					
 				</div>
 				<div class="row"><!--Segunda linea fotos favortios-->
-					<div class="secondary text-center">
+					
 						<div class="medium-4 columns">
 							<div class="secondary text-center">
-								<img src="img/favorito4.jpg" alt="Favorito4" class="thumbnail"/>
+								<img src="img/fav4.jpeg" alt="Favorito4" class="thumbnail"/>
 							</div>
 						</div>
-					</div>
-					<div class="secondary text-center">
+					
 						<div class="medium-4 columns">
-							<img src="img/favorito5.jpg" alt="Favorito5" class="thumbnail"/>
+							<img src="img/fav5.jpg" alt="Favorito5" class="thumbnail"/>
 						</div>
-					</div>
-					<div class="secondary text-center">
+					
 						<div class="medium-4 columns">
-							<img src="img/favorito6.jpg" alt="Favorito6" class="thumbnail"/>
+							<img src="img/fav6.jpg" alt="Favorito6" class="thumbnail"/>
 						</div>
-					</div>
+					
 				</div>
 			</div>
-			<div class="row callout">
-				<h5>Historial</h5>
-				<p class="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+			<div class="row callout warning">
+				<div class="medium-12">
+					<h5>Historial:</h5>
+				</div>
+				<div class="medium-12">
+					<ul class="vertical menu">
+						<li class="mayuscula"><a href="#">La cocina es cultura</a></li>
+	          			<li class="mayuscula"><a href="#">¿que comemos cuando comemos?</a></li>
+	          			<li class="mayuscula"><a href="#">el huevo y la gallina</a></li>
+	          			<li class="mayuscula"><a href="#">comida real</a></li>
+	          			<li class="mayuscula"><a href="#">rol del periodismo gastronomico</a></li>
+	          			<li class="mayuscula"><a href="#">cocina como marca del futuro</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
-		<div class="medium-7 large-7 columns callout"><!--lado derecho de la pantall-->
+		<div class="medium-7 large-7 columns callout secondary"><!--lado derecho de la pantall-->
 			<div class="row"><!--blog 1-->
 				<div class="medium-12 columns">
 					<h3>Titulo Blog 1</h3>
@@ -102,7 +106,7 @@
 					<span class="label">30 de Octubre del 2018</span>
 				</div>
 				<div class="medium-12 columns">
-					<img src="img/img1.jpg">
+					<img src="img/blog1.jpg">
 				</div>
 				<div class="medium-12 columns text-justify">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -123,8 +127,34 @@
 		            </div>
 					</form>
 				</div>
+				<div class="row callout warning columns medium-12"><!--Comentarios realizados-->
+					<div class="medium-2 columns">
+						<img src="img/mujer.png" alt="mujer"/>
+					</div>
+					<div class="medium-12 columns">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</div>
+				</div>
+				<div class="row callout warning columns medium-12"><!--Comentarios realizados-->
+					<div class="medium-2 columns">
+						<img src="img/hombre.png" alt="mujer"/>
+					</div>
+					<div class="medium-12 columns">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</div>
+				</div>
+				<div class="row callout warning columns medium-12"><!--Comentarios realizados-->
+					<div class="medium-2 columns">
+						<img src="img/mujer.png" alt="mujer"/>
+					</div>
+					<div class="medium-12 columns">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</div>
+				</div>
 			</div>
-			<hr>
+		</div>
+		<hr>
+		<div class="medium-7 large-7 columns callout small-offset-5 secondary">
 			<div class="row"><!--blog 2-->
 				<div class="medium-12 columns">
 					<h3>Titulo Blog 2</h3>
@@ -133,7 +163,7 @@
 					<span class="label">30 de Octubre del 2018</span>
 				</div>
 				<div class="medium-12 columns">
-					<img src="img/img1.jpg">
+					<img src="img/blog2.jpg">
 				</div>
 				<div class="medium-12 columns text-justify">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -154,9 +184,33 @@
 		            	</div>
 					</form>
 				</div>
+				<div class="row callout warning columns medium-12"><!--Comentarios realizados-->
+					<div class="medium-2 columns">
+						<img src="img/mujer.png" alt="mujer"/>
+					</div>
+					<div class="medium-12 columns">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</div>
+				</div>
+				<div class="row callout warning columns medium-12"><!--Comentarios realizados-->
+					<div class="medium-2 columns">
+						<img src="img/hombre.png" alt="mujer"/>
+					</div>
+					<div class="medium-12 columns">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</div>
+				</div>
+				<div class="row callout warning columns medium-12"><!--Comentarios realizados-->
+					<div class="medium-2 columns">
+						<img src="img/mujer.png" alt="mujer"/>
+					</div>
+					<div class="medium-12 columns">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</div>
+				</div>
 			</div>
 		</div>
+		</div>
 	</div>
-
 </body>
 </html>
